@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 	gem 'rails', '4.0.0'
 	gem 'turbolinks'
 	gem 'jquery-rails'
-
+#	gem 'devise'
+gem 'devise', '~> 3.0.1'
+	gem 'draper', '~> 1.0'
 
 group :development, :test do
   gem 'sqlite3'
