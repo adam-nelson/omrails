@@ -7,7 +7,8 @@ source 'https://rubygems.org'
 #	gem 'devise'
 gem 'devise', '~> 3.0.1'
 	gem 'draper', '~> 1.0'
-
+	gem 'simple_form' 
+	gem 'protected_attributes'
 group :development, :test do
   gem 'sqlite3'
 end
