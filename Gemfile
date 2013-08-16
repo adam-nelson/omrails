@@ -5,10 +5,13 @@ source 'https://rubygems.org'
 	gem 'turbolinks'
 	gem 'jquery-rails'
 #	gem 'devise'
-gem 'devise', '~> 3.0.1'
+	gem 'devise', '~> 3.0.1'
 	gem 'draper', '~> 1.0'
 	gem 'simple_form' 
 	gem 'protected_attributes'
+        gem "paperclip", "~> 3.0"
+
+
 group :development, :test do
   gem 'sqlite3'
 end
