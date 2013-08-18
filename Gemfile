@@ -10,7 +10,7 @@ source 'https://rubygems.org'
 	gem 'simple_form' 
 	gem 'protected_attributes'
         gem "paperclip", "~> 3.0"
-
+	gem 'aws-sdk'
 
 group :development, :test do
   gem 'sqlite3'
